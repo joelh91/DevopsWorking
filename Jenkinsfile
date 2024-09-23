@@ -1,7 +1,7 @@
 pipeline{
   agent any
   stages{
-      stage('UAT'){
+      stage('uat'){
           steps{
               echo "the branch is ${env.BRANCH_NAME}"
           }
